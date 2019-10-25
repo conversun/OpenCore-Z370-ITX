@@ -164,22 +164,6 @@
 			</dict>
 			<dict>
 				<key>BundlePath</key>
-				<string>WhateverGreen.kext</string>
-				<key>Comment</key>
-				<string>Video card</string>
-				<key>Enabled</key>
-				<true/>
-				<key>ExecutablePath</key>
-				<string>Contents/MacOS/WhateverGreen</string>
-				<key>MaxKernel</key>
-				<string></string>
-				<key>MinKernel</key>
-				<string></string>
-				<key>PlistPath</key>
-				<string>Contents/Info.plist</string>
-			</dict>
-			<dict>
-				<key>BundlePath</key>
 				<string>AppleALC.kext</string>
 				<key>Comment</key>
 				<string>Sound</string>
@@ -271,7 +255,7 @@
 			<key>7C436110-AB2A-4BBB-A880-FE41995C9F82</key>
 			<dict>
 				<key>boot-args</key>
-				<string>dart=0 darkwake=8 -v</string>
+				<string>dart=0 darkwake=8</string>
 				<key>csr-active-config</key>
 				<data>
 				5wMAAA==
@@ -290,19 +274,17 @@
 		<key>Generic</key>
 		<dict>
 			<key>MLB</key>
-			<string>C02952404J9KGQGF1</string>
+			<string>C027054014NJG36JA</string>
 			<key>ROM</key>
-			<data>
-			gtIVetnh
-			</data>
+			<string>7085C2866182</string>
 			<key>SpoofVendor</key>
 			<true/>
 			<key>SystemProductName</key>
-			<string>iMac19,2</string>
+			<string>iMacPro1,1</string>
 			<key>SystemSerialNumber</key>
-			<string>C02ZW0VXJWD1</string>
+			<string>C02T6YZXHX87</string>
 			<key>SystemUUID</key>
-			<string>CBCB79B1-DA5F-43EE-B637-6E20707AD9E1</string>
+			<string>1C6A35EB-745A-43BF-8515-9937ADD5C6CF</string>
 		</dict>
 		<key>UpdateDataHub</key>
 		<true/>
