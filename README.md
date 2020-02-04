@@ -4,23 +4,11 @@
 
 主板：华擎z370 Fatal1ty gaming-itx/ac
 
-cpu：i7 8700k
+cpu：i7 9700K
 
-显卡：AMD rx480
+显卡：5700XT
 
 网卡：BCM943602CS
-
-
-# 更新日志
-
-### 2019-10-010
-* 开启usb全端口
-`HS03-HS06、HS08-HS11、HS14、SS01-SS08`
-* 移除无用补丁（for z390）
-
-### 2019-10-08
-* 启动文件config优化设置 [参考](https://insanelymacdiscord.github.io/Getting-Started-With-OpenCore/)
-* **加入`IOElectrify.kext`修复雷电热插拔**，
 
 
 ## BIOS设置
@@ -31,9 +19,9 @@ Advanced \ Super IO Configuration → Serial Port: Disabled
 
 Advanced \ USB Configuration → XHCI Hand-off : Enabled
 
-Advanced \ Chipset Configuration → Share Memory : 128MB
+~~Advanced \ Chipset Configuration → Share Memory : 128MB~~
 
-Advanced \ Chipset Configuration → IGPU Multi-Monitor : Enabled
+~~Advanced \ Chipset Configuration → IGPU Multi-Monitor : Enabled~~
 
 
 # 参考
