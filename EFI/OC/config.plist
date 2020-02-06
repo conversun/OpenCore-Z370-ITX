@@ -252,27 +252,6 @@
 				<key>name</key>
 				<string>ATY_GPU</string>
 			</dict>
-			<key>PciRoot(0x0)/Pci(0x2,0x0)</key>
-			<dict>
-				<key>AAPL,ig-platform-id</key>
-				<data>AwCYPg==</data>
-				<key>AAPL,slot-name</key>
-				<string>Internal@0,2,0</string>
-				<key>device-id</key>
-				<data>mD4AAA==</data>
-				<key>device_type</key>
-				<string>VGA compatible controller</string>
-				<key>framebuffer-fbmem</key>
-				<data>AACQAA==</data>
-				<key>framebuffer-patch-enable</key>
-				<data>AQAAAA==</data>
-				<key>framebuffer-stolenmem</key>
-				<data>AAAwAQ==</data>
-				<key>hda-gfx</key>
-				<string>onboard-2</string>
-				<key>model</key>
-				<string>Intel UHD Graphics 630</string>
-			</dict>
 		</dict>
 	</dict>
 	<key>Kernel</key>
@@ -313,22 +292,6 @@
 			</dict>
 			<dict>
 				<key>BundlePath</key>
-				<string>WhateverGreen.kext</string>
-				<key>Comment</key>
-				<string></string>
-				<key>Enabled</key>
-				<false/>
-				<key>ExecutablePath</key>
-				<string>Contents/MacOS/WhateverGreen</string>
-				<key>MaxKernel</key>
-				<string></string>
-				<key>MinKernel</key>
-				<string></string>
-				<key>PlistPath</key>
-				<string>Contents/Info.plist</string>
-			</dict>
-			<dict>
-				<key>BundlePath</key>
 				<string>AppleALC.kext</string>
 				<key>Comment</key>
 				<string></string>
@@ -345,13 +308,13 @@
 			</dict>
 			<dict>
 				<key>BundlePath</key>
-				<string>IntelMausi.kext</string>
+				<string>IntelMausiEthernet.kext</string>
 				<key>Comment</key>
 				<string></string>
 				<key>Enabled</key>
 				<true/>
 				<key>ExecutablePath</key>
-				<string>Contents/MacOS/IntelMausi</string>
+				<string>Contents/MacOS/IntelMausiEthernet</string>
 				<key>MaxKernel</key>
 				<string></string>
 				<key>MinKernel</key>
@@ -432,7 +395,7 @@
 			<key>ThirdPartyDrives</key>
 			<false/>
 			<key>XhciPortLimit</key>
-			<true/>
+			<false/>
 		</dict>
 	</dict>
 	<key>Misc</key>
@@ -450,7 +413,7 @@
 			<key>ConsoleMode</key>
 			<string></string>
 			<key>HibernateMode</key>
-			<string>NVRAM</string>
+			<string>None</string>
 			<key>HideSelf</key>
 			<true/>
 			<key>PollAppleHotKeys</key>
